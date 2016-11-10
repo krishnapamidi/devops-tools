@@ -22,6 +22,7 @@ wget http://archive.apache.org/dist/hadoop/core/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 
 echo "*** Configuring Hadoop ..."
 cp -f $sourceDir/conf/hadoop/* ~/hadoop/etc/hadoop/
+echo '# Hadoop aliases' >> ~/.bashrc
 echo 'export HADOOP_HOME=~/hadoop' >> ~/.bashrc
 echo 'export HADOOP_OPTS=-Djava.library.path=~/hadoop/lib/native' >> ~/.bashrc
 echo 'export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin' >> ~/.bashrc

@@ -20,3 +20,5 @@ echo "export SPARK_HOME=$SPARK_HOME" >> ~/.bashrc
 echo 'export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin' >> ~/.bashrc
 source ~/.bashrc
 
+mkdir /tmp/spark-events
+spark-shell
