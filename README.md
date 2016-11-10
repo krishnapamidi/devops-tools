@@ -1,5 +1,7 @@
 # devops-tools
-DevOps shell scripts
+DevOps shell scripts:
+* Install Apache Hadoop on aws instance automatically
+* Install Apache Spark on aws instance automatically
 
 # Usage
 
